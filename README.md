@@ -17,7 +17,6 @@
    * This is for blog.
    * They will just link to linkin posts
 
-
 # User Requirements
 
 ### Home page
@@ -34,8 +33,6 @@
     - Our Team
 
     1. Home
-
-<<<<<<< HEAD
         - ~~Speakeasy logo~~
         - Sponsored by EY logo
         - ~~Our 3 values - DIN Alternate Bold / Bebas~~
@@ -46,7 +43,6 @@
     2. About Us
 
         - ~~Blurb~~
-=======
         - Speakeasy logo
         - Sponsored by EY logo
         - Our 3 values - DIN Alternate Bold / Bebas 
@@ -57,7 +53,6 @@
     2. About Us
 
         - Blurb
->>>>>>> 5645a61f7af8813ebe711124196daee6408ecb3d
         - Blog at bottom (links to LinkedIn articles are perfect)
 
     3. BESK
@@ -86,17 +81,8 @@
     6. Our Team
 
         - Names and headshots for:
-<<<<<<< HEAD
         - ~~Main Committee and DCU ambassadors~~
         - Campus Ambassadors
         - Alumni Ambassadors
 
 ~~(Join Us) button at bottom of page - with email link.~~
-=======
-        - Main Committee and DCU ambassadors
-        - Campus Ambassadors
-        - Alumni Ambassadors
-
-(Join Us) button at bottom of page - with email link.
->>>>>>> 5645a61f7af8813ebe711124196daee6408ecb3d
-
