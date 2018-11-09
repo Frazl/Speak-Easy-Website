@@ -1,0 +1,25 @@
+<!-- Content Start -->
+<section id='values'>
+    <div class="container">
+      <!-- Header -->
+      <div class="row">
+        <div class="section-title text-center">
+          <h2>{{ .Site.Data.values.title }}</h2>
+          <p>{{ .Site.Data.values.paragraph }}</p>
+        </div>
+      </div>
+  
+      <div class="row">
+        {{ range .Site.Data.values.values }}
+        <div class="col-md-4 ">
+            <div class="block">
+                    <h3 class='text-center'>{{.value}}</h3>
+              <p class='text-center'>{{.description}}</p>
+          </div>
+        </div>
+        {{ end }}
+
+      </div>
+    </div>
+  </section>
+  

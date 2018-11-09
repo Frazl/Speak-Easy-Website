@@ -1,0 +1,11 @@
+enable: true
+title: Our Values
+paragraph: >
+  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+values:
+  - value: Value 1
+    description: Test description
+  - value: Value 2
+    description: Test description 2 
+  - value: Value 3
+    description: Test description 3 

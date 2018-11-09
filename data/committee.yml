@@ -1,0 +1,45 @@
+enable: true
+title: Our Team
+subtitle: >
+  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+content:
+
+  - img: https://via.placeholder.com/150
+    name: John
+    role: >
+      Chairperson
+
+  - img: https://via.placeholder.com/150
+    name: Mary
+    role: >
+      Treasurer
+
+  - img: https://via.placeholder.com/150
+    name: Anne
+    role: >
+      Secretary
+
+  - img: https://via.placeholder.com/150
+    name: Louise
+    role: >
+      Public Relations Officer
+
+  - img: https://via.placeholder.com/150
+    name: That one guy
+    role: >
+      Ordinary Member
+
+  - img: https://via.placeholder.com/150
+    name: Louise
+    role: >
+      Ordinary Member
+
+  - img: https://via.placeholder.com/150
+    name: Mary
+    role: >
+      Ordinary Member
+
+  - img: https://via.placeholder.com/150
+    name: Sean
+    role: >
+      Ordinary Member
