@@ -6,13 +6,10 @@ theme = "airspace-hugo"
 [menu]
 
   [[menu.header]]
-<<<<<<< HEAD
-=======
     weight = 2
     name = "Home"
     url = "/home"
   [[menu.header]]
->>>>>>> 5645a61f7af8813ebe711124196daee6408ecb3d
     weight = 3
     name = "About Us"
     url = "/aboutus"
@@ -61,11 +58,8 @@ theme = "airspace-hugo"
   # This license is offered with a 50% discount for all Hugo users.
   # For information see https://github.com/gohugoio/hugoThemes/issues/260
 
-<<<<<<< HEAD
   date_format = "6 January 2006"
-=======
-  dateFormat = "6 January 2006"
->>>>>>> 5645a61f7af8813ebe711124196daee6408ecb3d
+
 
   home = "Home"
 
@@ -77,10 +71,7 @@ theme = "airspace-hugo"
   [params.wrapper]
     enable = true
     title = "About Us"
-<<<<<<< HEAD
     img = 'https://via.placeholder.com/400'
-=======
->>>>>>> 5645a61f7af8813ebe711124196daee6408ecb3d
     italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
     paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
 
@@ -91,7 +82,6 @@ theme = "airspace-hugo"
 
   [params.feature]
     enable = true
-<<<<<<< HEAD
     title = "We host amazing events"
     content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
     img = ""
@@ -106,7 +96,6 @@ theme = "airspace-hugo"
     [params.call.button]
     url = 'mailto:committee@speakeasy.dcu.ie'
     text = 'Email Committee'
-=======
     title = "We believe in great ideas"
     content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
     [params.feature.button]
@@ -117,16 +106,11 @@ theme = "airspace-hugo"
     enable = true
     title = "We design delightful digital experiences."
     paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
->>>>>>> 5645a61f7af8813ebe711124196daee6408ecb3d
 
   [params.contact]
     enable = true
     title = "Drop us a note"
-<<<<<<< HEAD
     subtitle = "Secondary title (subtitle text here)"
-=======
-    subtitle = "Don’t just take our word for it. Check out some of our latest work."
->>>>>>> 5645a61f7af8813ebe711124196daee6408ecb3d
     [params.contact.form]
       name = "Your name"
       email = "Your email"
@@ -138,8 +122,3 @@ theme = "airspace-hugo"
       address = "North Main Street, Brooklyn Australia"
       email = "Email: contact@mail.com"
       phone = "Phone: +88 01672 506 744"
-<<<<<<< HEAD
-=======
-    [params.contact.gmaps]
-      title = "We Also Count in Google Maps"
->>>>>>> 5645a61f7af8813ebe711124196daee6408ecb3d
