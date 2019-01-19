@@ -1,0 +1,22 @@
+enable: true
+title: Blog
+subtitle: While you're here, why not check out one of our latest blog posts?
+content:
+
+  - url: https://via.placeholder.com/150
+    name: Da Shpoof
+    color: spk-red
+    description: >
+      Da Shpoof occured, the shpoof was had, it was big. 
+
+  - url: https://via.placeholder.com/150
+    name: Da Shpoof
+    color: spk-yellow
+    description: >
+      Da Shpoof occured, the shpoof was had, it was big. 
+
+  - url: https://via.placeholder.com/150
+    name: Da Shpoof
+    color: spk-blue
+    description: >
+      Da Shpoof occured, the shpoof was had, it was big. 

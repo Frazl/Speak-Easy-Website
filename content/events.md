@@ -1,4 +1,4 @@
 +++
-title = "About Us"
-id = "wrapper"
+title = "Events"
+id = "events"
 +++

@@ -1,0 +1,28 @@
+<!-- aboutUs Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>{{ .Site.Params.aboutUs.title }}</h2>
+            <p>{{ .Site.Params.aboutUs.italic }}</p>
+          </div>
+          <p>{{ .Site.Params.aboutUs.paragraph }}</p>
+          <p>{{ .Site.Params.aboutUs.paragraph2 }}</p>
+          <p>{{ .Site.Params.aboutUs.paragraph3 }}</p>
+          <p>{{ .Site.Params.aboutUs.paragraph4 }}</p>
+          <p>{{ .Site.Params.aboutUs.paragraph5 }}</p>
+          <p>{{ .Site.Params.aboutUs.paragraph6 }}</p>
+          <p>{{ .Site.Params.aboutUs.paragraph7 }}</p>
+        </div>
+      </div><!-- .col-md-7 close -->
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="{{ .Site.Params.aboutUs.img }}" alt="Img">
+          <img src="{{ .Site.Params.aboutUs.values }}" alt="values"/>
+        </div>
+      </div><!-- .col-md-5 close -->
+    </div>
+  </div>
+</section>

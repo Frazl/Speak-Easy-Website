@@ -1,14 +1,10 @@
 title = "DCU SpeakEasy"
-baseURL = "https://spkeasy.redbrick.dcu.ie"
+baseURL = "https://www.redbrick.dcu.ie/~fraz/ispeakizi/"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
 [menu]
 
-  [[menu.header]]
-    weight = 2
-    name = "Home"
-    url = "/home"
   [[menu.header]]
     weight = 3
     name = "About Us"
@@ -31,25 +27,25 @@ theme = "airspace-hugo"
     url = "/team"
 
   [[menu.footer]]
-    weight = 1
-    name = "About us"
-    url = "#"
-  [[menu.footer]]
-    weight = 2
-    name = "Contact us"
-    url = "#"
-  [[menu.footer]]
     weight = 3
-    name = "How it works"
-    url = "#"
+    name = "About Us"
+    url = "/aboutus"
   [[menu.footer]]
     weight = 4
-    name = "Blog"
-    url = "#"
+    name = "BESK"
+    url = "/besk"
   [[menu.footer]]
     weight = 5
-    name = "Terms"
-    url = "#"
+    name = "YAP"
+    url = "/yap"
+  [[menu.footer]]
+    weight = 6
+    name = "Events"
+    url = "/events"
+  [[menu.footer]]
+    weight = 7
+    name = "Our Team"
+    url = "/team"
 
 # The site's parameters
 [params]
@@ -65,15 +61,55 @@ theme = "airspace-hugo"
 
   [params.slider]
     enable = true
-    title = "Speakeasy - Find Your Voice"
-    subtitle = "Drinkin, Fightin, Smokin"
+    title = "Ireland’s Student Public Speaking and Communication Society"
+    subtitle = "Based in Dublin City University"
 
-  [params.wrapper]
+  [params.aboutUs]
     enable = true
     title = "About Us"
-    img = 'https://via.placeholder.com/400'
-    italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-    paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+    img = '/~fraz/ispeakizi/img/group1.png'
+    values = '/~fraz/ispeakizi/img/values.png'
+    italic = "We are DCU’s and Ireland’s largest public speaking and communications society and we help students to practically enhance their communication skills in a relaxed and informal setting. We are like Toastmasters (with a twist) and TEDx talks rolled into one, plus much more."
+    paragraph = "In August 2016 we started the society with three members and as a way to prepare for college presentations. Since then, we have created many signature events which provide a safe and relaxed environment for students to ultimately receive constructive advice and develop their confidence."
+    paragraph2 = "Speakeasy was awarded DCU’s best new society in it’s first year and it’s member base has now increases significantly year on year. Apart from our weekly events that range from impromptu Da Shpoof sessions to interactive workshops and guest speakers, we also organise two national competitions; BESK, the Best National Speaker Competition and YAP Ireland, the National Student Podcast Competition."
+    paragraph3 = "As the society has grown, our mission has also grown."
+    paragraph4 = "We want to help students to find their voice and to grow and adapt in different situations. In this, students will be able to create their own opportunities and compete in competitions, but most importantly compete against themselves."
+    paragraph5 = "We believe that by striving to achieve these goals, our members will exceed their own expectations and gain both personal and professional growth."
+    paragraph6 = "Our strong connections with industry leaders are reflected in our ethos, and we are proud have EY as Speakeasy’s main society sponsor in 2018/’19."
+
+[params.yap]
+    enable = true
+    title = "ARE YOU IRELAND’S BEST STUDENT PODCASTER?"
+    img = '/~fraz/ispeakizi/img/yap.png'
+    italic = "Newstalk and Off the Ball have partnered with Speakeasy to launch the first national student podcast competition, YAP Ireland."
+    paragraph = "The competition is open to all registered third level students in the country, and there are four categories for students to enter, Sport, Current Affairs and Culture, Business and Technology and Other/Miscellaneous."
+    paragraph2 = "The category winners will qualify for the final to find the top three student podcasts in Ireland. Submission of entries will open for only one week, from 1st to 7th April 2019. Instructions regarding submission will become available here on 1st April."
+    head3 = "Prizes"
+    paragraph3 = "Mentorship from Newstalk and Off the Ball producers and an audio production equipment package worth €400 will be among the prizes for the overall winner, and the runners-up will be awarded with podcasting equipment that will set them up for their future career in media."
+    head4 = "Judging Criteria"
+    jc1 = "Value"
+    jc1d = "How well does your programme entertain, inform and stimulate the audience?"
+    jc2 = "Presentation"
+    jc2d = "How is it is presented? Is it well scripted,  polished and professional?"
+    jc3 = "Creativity"
+    jc3d = "In terms of innovation, originality and novelty – how does it stand out?"
+    jc4 = "PRODUCTION"
+    jc4d = "Is your piece well-produced and quality evident?"
+    partner = "/~fraz/ispeakizi/img/newstalk.png"
+
+[params.besk]
+    enable = true
+    title = "BESK"
+    img = '/~fraz/ispeakizi/img/group2.png'
+    italic = "This is Speakeasy DCU’s first year running BESK, our student best speaker competition. Students have the opportunity to speak about a topic that they’re passionate about for up to 7 minutes."
+    paragraph = "In August 2016 we started the society with three members and as a way to prepare for college presentations. Since then, we have created many signature events which provide a safe and relaxed environment for students to ultimately receive constructive advice and develop their confidence."
+    paragraph2 = "Blurb about National Student Speaker Competition/ Competition format"
+    paragraph3 = "Date/Time/Location for Qualifier Rounds in each college & contacts for entry"
+    paragraph4 = ""
+    paragraph5 = ""
+    paragraph6 = ""
+    partnership = ""
+    videolink = ""
 
   [params.blog]
     enable = true
@@ -98,27 +134,14 @@ theme = "airspace-hugo"
     text = 'Email Committee'
     title = "We believe in great ideas"
     content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
-    [params.feature.button]
-      caption = "View Works"
-      url = "#"
-
-  [params.call]
-    enable = true
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
 
   [params.contact]
     enable = true
     title = "Drop us a note"
-    subtitle = "Secondary title (subtitle text here)"
+    subtitle = "Get in touch with us by filling out the contact form below!"
     [params.contact.form]
-      name = "Your name"
-      email = "Your email"
-      subject = "Your subject"
-      message = "Your message"
+      name = "Your name *"
+      email = "Your email *"
+      phone = "Your phone"
+      message = "Your message *"
       button = "Send message"
-    [params.contact.box]
-      title = "Stop by for a visit"
-      address = "North Main Street, Brooklyn Australia"
-      email = "Email: contact@mail.com"
-      phone = "Phone: +88 01672 506 744"

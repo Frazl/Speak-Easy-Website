@@ -1,0 +1,43 @@
+enable: true
+title: Events
+yapColor: spk-blue
+yapImage: https://via.placeholder.com/150
+yapP1: >
+  YAP DCU is a Speakeasy first podcast competition. The aim is to give an outlet to students to encourage them to get their voice’s heard and out there. Communication is a very important tool and podcasts are a great way to communicate with other. 
+yapP2: >
+  Entering is simple. The podcast is hosted online. To submit the podcast send it to Speackeasydcu@gmail.com via wetransfer.com. Deadline is the Friday the 14th of December. It must be submitted in an mp3 format and no slander or hate talk is permitted. The podcast itself can be no longer than 30 minutes. 
+yapP3: >
+  The prizes are amazing! First Prize is a trip to Berlin for two, second prizes are dinner for four at Captain Americans and Third prizes is a crate of red bull for that exam season. But that's not all!!! To promote the comp we are giving away 3 audio suites to help you with the post-production part of your podcasting. You can enter this amazing give away at https://goo.gl/forms/Uyg4Pagid1pM4nL22. 
+yapP4: >
+  All entries and the very important winners of YAP DCU will be put up onto Soundcloud so you can always reuse them for your portfolio!! HAPPY YAPCASTING
+
+content:
+
+  - img: https://via.placeholder.com/150
+    name: Da Shpoof
+    color: spk-red
+    description: >
+      Da Shpoof is an impromptu public speaking session which aims to help and improve the general public speaking skills of our members here at Speakeasy. Da Shpoof takes place on a fortnightly basis and is one of our flagship events that takes place right throughout the college calendar year. How does it work? Each individual is given a topic at random and has 90 seconds to give the best presentation possible on that topic. The aim of the game is to bluff your way into convincing the audience that you know what you're talking about. This event provides the perfect setting for those who are either completely new to public speaking, or even just looking to brush up on their skills in an informal, relaxed and judgement-free environment.
+
+  - img: https://via.placeholder.com/150
+    name: Guest Speakers
+    color: spk-yellow
+    description: >
+      Speakeasy appreciated the values that guest speakers bring. Listening to expert advice from people with different backgrounds and careers who are experts in their field, or just have a really cool story to tell. Our members love learning from our guest speakers. Keep an eye out on our facebook page for more info and if you fancy coming in to speak or have any interesting connections drop us a message and we will see what we can do
+
+  - img: https://via.placeholder.com/150
+    name: The Passion Project
+    color: spk-blue
+    description: >
+      The Passion Project - Is all about  gathering people with a variety of interests and bringing them together to express their passion while at the same time raising money for Charity. Each participant or participating group will pick their own charity before presenting their passion for at least 2 minutes. Every participant has the chance to showcase and create a feel good evening. The entrance money raised at the door goes to the winning participants chosen charity.
+
+  - img: https://via.placeholder.com/150
+    name: Speed Interviewing
+    color: spk-red
+    description: >
+      Speed Interviewing events have proven to be a popular way for students to get interview tips from external speakers as well as informally and in a fun way practice their interviewing skills
+
+  - img: https://via.placeholder.com/150
+    name: Syntax Sundays
+    color: spk-yellow
+    description: >

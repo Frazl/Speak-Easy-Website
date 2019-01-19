@@ -1,0 +1,25 @@
+<!-- Content Start -->
+<section id='values'>
+    <div class="container">
+      <!-- Header -->
+      <div class="row">
+        <div class="section-title text-center">
+          <h2>{{ .Site.Data.linkedin.title }}</h2>
+          <p>{{ .Site.Data.linkedin.subtitle }}</p>
+        </div>
+      </div>
+  
+      <div class="fraz-container">
+          {{ range .Site.Data.linkedin.content }}
+          <div class="fraz-box">
+              <div class="service-item">
+                <h2 class='text-center {{ .color }}'>{{ .name }}</h2>
+                <p>{{ .description }} 
+                <a style="font-size: 12px" href="{{ .url }} ">Read More</a></p>
+            </div>
+            </div>
+          {{ end }}
+      </div>
+    </div>
+  </section>
+  

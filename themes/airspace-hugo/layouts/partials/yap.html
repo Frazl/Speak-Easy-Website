@@ -1,0 +1,46 @@
+<!-- yap Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2 class="yap-blue">{{ .Site.Params.yap.title }}</h2>
+            <p>{{ .Site.Params.yap.italic }}</p>
+          </div>
+          <p>{{ .Site.Params.yap.paragraph }}</p>
+          <p>{{ .Site.Params.yap.paragraph2 }}</p>
+          <h3 class="yap-orange">{{ .Site.Params.yap.head3 }} </h3>
+          <p>{{ .Site.Params.yap.paragraph3 }}</p>
+          <div class="judge">
+          <h3 class="yap-orange">{{ .Site.Params.yap.head4 }} </h3>
+          <ul>
+            <li>
+              <h5 class="yap-blue judge">{{ .Site.Params.yap.jc1 }}</h5>
+              <p class="judge">{{ .Site.Params.yap.jc1d }}</p>
+            </li>
+            <li>
+                <h5 class="yap-blue judge">{{ .Site.Params.yap.jc2 }}</h5>
+                <p class="judge">{{ .Site.Params.yap.jc2d }}</p>
+              </li>
+            <li>
+                <h5 class="yap-blue judge">{{ .Site.Params.yap.jc3 }}</h5>
+                <p class="judge">{{ .Site.Params.yap.jc3d }}</p>
+              </li>
+            <li>
+                <h5 class="yap-blue judge">{{ .Site.Params.yap.jc4 }}</h5>
+                <p class="judge">{{ .Site.Params.yap.jc4d }}</p>
+              </li>
+          </ul>
+        </div>
+          <img src="{{ .Site.Params.yap.partner }}" alt="Partner">
+        </div>
+      </div><!-- .col-md-7 close -->
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="{{ .Site.Params.yap.img }}" alt="Img">
+        </div>
+      </div><!-- .col-md-5 close -->
+    </div>
+  </div>
+</section>

@@ -1,0 +1,34 @@
+<!-- Content Start -->
+<section id='values'>
+    <div class="container">
+      <!-- Header -->
+      <div class="row">
+        <div class="section-title text-center">
+          <h2>{{ .Site.Data.events.title }}</h2>
+        </div>
+      </div>
+  
+      <div class="fraz-container">
+          {{ range .Site.Data.events.content }}
+          <div class="fraz-box">
+              <div class="service-item">
+                <img class='img-center' src='{{ .img }}' />
+                <h2 class='text-center {{ .color }}'>{{ .name }}</h2>
+                <p> {{ .description }} </p>
+            </div>
+            </div>
+          {{ end }}
+          <div class="fraz-box">
+              <div class="service-item">
+                <img class='img-center' src='{{ .Site.Data.events.yapImage }}' />
+                <h2 class='text-center {{ .Site.Data.events.yapColor }}'>YAP DCU</h2>
+                <p> {{ .Site.Data.events.yapP1 }} </p>
+                <p> {{ .Site.Data.events.yapP2 }} </p>
+                <p> {{ .Site.Data.events.yapP3 }} </p>
+                <p> {{ .Site.Data.events.yapP4 }} </p>
+            </div>
+            </div>
+      </div>
+    </div>
+  </section>
+  

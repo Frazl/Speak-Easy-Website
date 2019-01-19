@@ -5,19 +5,25 @@
       <div class="row">
         <div class="section-title text-center">
           <h2>{{ .Site.Data.values.title }}</h2>
-          <p>{{ .Site.Data.values.paragraph }}</p>
         </div>
       </div>
   
       <div class="row">
-        {{ range .Site.Data.values.values }}
         <div class="col-md-4 ">
             <div class="block">
-                    <h3 class='text-center'>{{.value}}</h3>
-              <p class='text-center'>{{.description}}</p>
+              <h2 class='text-center spk-red'>{{.Site.Data.values.value1}}</h2>
           </div>
         </div>
-        {{ end }}
+        <div class="col-md-4 ">
+            <div class="block">
+              <h2 class='text-center spk-blue'>{{.Site.Data.values.value2}}</h2>
+          </div>
+        </div>
+        <div class="col-md-4 ">
+            <div class="block">
+              <h2 class='text-center spk-yellow'>{{.Site.Data.values.value3}}</h2>
+          </div>
+        </div>
 
       </div>
     </div>

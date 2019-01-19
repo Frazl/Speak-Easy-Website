@@ -2,8 +2,8 @@
 <div class="container">
   <div class="row">
     <div class="col-md-6 col-md-offset-6">
-      <h2 class="text-uppercase">{{ .Site.Params.feature.title }}</h2>
-      <div>
+      <h2 class="text-uppercase spk-yellow">{{ .Site.Params.feature.title }}</h2>
+      <div class="feature-text">
       	{{ .Site.Params.feature.content | markdownify }}
       </div>
       {{ with .Site.Params.feature.button }}
