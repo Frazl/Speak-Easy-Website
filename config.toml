@@ -79,7 +79,7 @@ theme = "airspace-hugo"
 
 [params.yap]
     enable = true
-    title = "ARE YOU IRELAND’S BEST STUDENT PODCASTER?"
+    title = "/~fraz/ispeakizi/img/yap_title.png"
     img = '/~fraz/ispeakizi/img/yap.png'
     italic = "Newstalk, Off the Ball and EY have partnered with Speakeasy to launch the first national student podcast competition, YAP Ireland. "
     paragraph = "The competition is open to all registered third level students in the country, and there are four categories for students to enter:"
