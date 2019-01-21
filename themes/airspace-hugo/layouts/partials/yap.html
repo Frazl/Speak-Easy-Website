@@ -5,18 +5,18 @@
       <div class="col-md-8 col-sm-8">
         <div class="block" style="font-size: 18px">
           <div class="section-title">
-            <h2 class="yap-blue">{{ .Site.Params.yap.title }}</h2>
-            <p style="font-size: 18px">{{ .Site.Params.yap.italic }}</p>
+            <h2 class="yap-blue" style="font-size: 200%; line-height: 200%">{{ .Site.Params.yap.title }}</h2>
+            <p style="font-size: 22px">{{ .Site.Params.yap.italic }}</p>
           </div>
           <p style="font-size: 18px">{{ .Site.Params.yap.paragraph }}</p>
-          <ul style="list-style-type: disc; padding-left: 20px">
+          <ul style="list-style-type: disc; padding-left: 20px; color: #7B7B7B">
             <li>Sport</li>
             <li>Current Affairs and Culture</li>
             <li>Business and Technology</li>
             <li>Other/Miscellaneous</li>
           </ul>
-          <p style="font-size: 18px">{{ .Site.Params.yap.paragraph2 }}</p>
-          <p style="font-size: 18px">{{ .Site.Params.yap.paragraph2sub }}</p>
+          <p style="font-size: 18px">The category winners will qualify for the final to find the top three student podcasts in Ireland. Submission of entries will open for only one week, from <b>1st to 7th April 2019</b>. Instructions regarding submission will become <b>available here on 1st April.</b></p>
+          <p style="font-size: 18px;"><b>{{ .Site.Params.yap.paragraph2sub }}</b></p>
         </div>
       </div><!-- .col-md-7 close -->
       <div class="col-md-4 col-sm-4">
@@ -29,7 +29,42 @@
         <div class="col-md-12 col-sm-12">
           <div class="block">
             <h2 class="yap-orange">{{ .Site.Params.yap.head3 }} </h2>
-            <p style="font-size: 18px">{{ .Site.Params.yap.paragraph3 }}</p>
+          </div>
+        </div><!-- .col-md-7 close -->
+      </div>
+      <div class="row" style="margin-top: 2em">
+        <div class="col-md-2 col-sm-2">
+          <div class="block">
+            <img src="{{ .Site.Params.yap.prize1_img }}" alt="Img">
+          </div>
+        </div><!-- .col-md-7 close -->
+        <div class="col-md-10 col-sm-10">
+          <div class="block">
+            <p style="font-size: 18px">{{ .Site.Params.yap.prize1 }}</p>
+          </div>
+        </div><!-- .col-md-7 close -->
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-sm-2">
+          <div class="block">
+            <img src="{{ .Site.Params.yap.prize2_img }}" alt="Img">
+          </div>
+        </div><!-- .col-md-7 close -->
+        <div class="col-md-10 col-sm-10">
+          <div class="block">
+            <p style="font-size: 18px">{{ .Site.Params.yap.prize2 }}</p>
+          </div>
+        </div><!-- .col-md-7 close -->
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-sm-2">
+          <div class="block">
+            <img src="{{ .Site.Params.yap.prize3_img }}" alt="Img">
+          </div>
+        </div><!-- .col-md-7 close -->
+        <div class="col-md-10 col-sm-10">
+          <div class="block">
+            <p style="font-size: 18px">{{ .Site.Params.yap.prize3 }}</p>
           </div>
         </div><!-- .col-md-7 close -->
       </div>
@@ -38,7 +73,7 @@
             <div class="block">
             <div class="judge">
                 <h2 class="yap-orange">{{ .Site.Params.yap.head4 }} </h2>
-                <ul>
+                <ul style="margin-top: 2em">
                   <li>
                     <h3 class="yap-blue judge">{{ .Site.Params.yap.jc1 }}</h3>
                     <p class="judge" style="font-size: 18px">{{ .Site.Params.yap.jc1d }}</p>
