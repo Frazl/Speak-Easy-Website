@@ -2,45 +2,112 @@
 <section id="intro">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
+      <div class="col-md-8 col-sm-8">
+        <div class="block" style="font-size: 18px">
           <div class="section-title">
             <h2 class="yap-blue">{{ .Site.Params.yap.title }}</h2>
-            <p>{{ .Site.Params.yap.italic }}</p>
+            <p style="font-size: 18px">{{ .Site.Params.yap.italic }}</p>
           </div>
-          <p>{{ .Site.Params.yap.paragraph }}</p>
-          <p>{{ .Site.Params.yap.paragraph2 }}</p>
-          <h3 class="yap-orange">{{ .Site.Params.yap.head3 }} </h3>
-          <p>{{ .Site.Params.yap.paragraph3 }}</p>
-          <div class="judge">
-          <h3 class="yap-orange">{{ .Site.Params.yap.head4 }} </h3>
-          <ul>
-            <li>
-              <h5 class="yap-blue judge">{{ .Site.Params.yap.jc1 }}</h5>
-              <p class="judge">{{ .Site.Params.yap.jc1d }}</p>
-            </li>
-            <li>
-                <h5 class="yap-blue judge">{{ .Site.Params.yap.jc2 }}</h5>
-                <p class="judge">{{ .Site.Params.yap.jc2d }}</p>
-              </li>
-            <li>
-                <h5 class="yap-blue judge">{{ .Site.Params.yap.jc3 }}</h5>
-                <p class="judge">{{ .Site.Params.yap.jc3d }}</p>
-              </li>
-            <li>
-                <h5 class="yap-blue judge">{{ .Site.Params.yap.jc4 }}</h5>
-                <p class="judge">{{ .Site.Params.yap.jc4d }}</p>
-              </li>
+          <p style="font-size: 18px">{{ .Site.Params.yap.paragraph }}</p>
+          <ul style="list-style-type: disc; padding-left: 20px">
+            <li>Sport</li>
+            <li>Current Affairs and Culture</li>
+            <li>Business and Technology</li>
+            <li>Other/Miscellaneous</li>
           </ul>
-        </div>
-          <img src="{{ .Site.Params.yap.partner }}" alt="Partner">
+          <p style="font-size: 18px">{{ .Site.Params.yap.paragraph2 }}</p>
+          <p style="font-size: 18px">{{ .Site.Params.yap.paragraph2sub }}</p>
         </div>
       </div><!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
+      <div class="col-md-4 col-sm-4">
         <div class="block">
           <img src="{{ .Site.Params.yap.img }}" alt="Img">
         </div>
       </div><!-- .col-md-5 close -->
     </div>
-  </div>
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="block">
+            <h2 class="yap-orange">{{ .Site.Params.yap.head3 }} </h2>
+            <p style="font-size: 18px">{{ .Site.Params.yap.paragraph3 }}</p>
+          </div>
+        </div><!-- .col-md-7 close -->
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-sm-8">
+            <div class="block">
+            <div class="judge">
+                <h2 class="yap-orange">{{ .Site.Params.yap.head4 }} </h2>
+                <ul>
+                  <li>
+                    <h3 class="yap-blue judge">{{ .Site.Params.yap.jc1 }}</h3>
+                    <p class="judge" style="font-size: 18px">{{ .Site.Params.yap.jc1d }}</p>
+                  </li>
+                  <li>
+                      <h3 class="yap-blue judge">{{ .Site.Params.yap.jc2 }}</h3>
+                      <p class="judge" style="font-size: 18px">{{ .Site.Params.yap.jc2d }}</p>
+                    </li>
+                  <li>
+                      <h3 class="yap-blue judge">{{ .Site.Params.yap.jc3 }}</h3>
+                      <p class="judge" style="font-size: 18px">{{ .Site.Params.yap.jc3d }}</p>
+                    </li>
+                  <li>
+                      <h3 class="yap-blue judge">{{ .Site.Params.yap.jc4 }}</h3>
+                      <p class="judge" style="font-size: 18px">{{ .Site.Params.yap.jc4d }}</p>
+                    </li>
+                </ul>
+              </div>
+              </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <div class="block">
+              <img src="{{ .Site.Params.yap.judge_img }}" alt="Img">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="block">
+            <h2 class="yap-orange" style="text-align: center">For competition updates, follow us on social media:</h2>
+          </div>
+        </div><!-- .col-md-7 close -->
+        <div class="col-md-4 col-sm-4">
+            <div class="block" style="text-align: center"> 
+                <span class="fa-stack fa-lg icons">
+                    <a href="{{ .Site.Params.yap.twitter_link }}">
+                    <i class="fa fa-square fa-stack-2x" style="color: #93c7d5"></i>
+                    <i class="fa fa-twitter fa-stack-1x" style="color: white"></i>
+                    </a>
+                    </span>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+              <div class="block" style="text-align: center">
+                  <span class="fa-stack fa-lg icons">
+                      <a href="{{ .Site.Params.yap.facebook_link }}">
+                      <i class="fa fa-circle fa-stack-2x" style="color: #93c7d5"></i>
+                      <i class="fa fa-facebook fa-stack-1x" style="color: white"></i>
+                      </a>
+                      </span>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="block" style="text-align: center">
+                    <span class="fa-stack fa-lg icons">
+                        <a href="{{ .Site.Params.yap.instagram_link }}">
+                        <i class="fa fa-circle fa-stack-2x" style="color: #93c7d5"></i>
+                        <i class="fa fa-instagram fa-stack-1x" style="color: white"></i>
+                        </a>
+                        </span>
+                </div>
+              </div>
+      </div>
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="block">
+            <img src="{{ .Site.Params.yap.partner }}" alt="Partner">
+          </div>
+        </div><!-- .col-md-7 close -->
+      </div>
+</div>
 </section>
