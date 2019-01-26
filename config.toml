@@ -1,5 +1,5 @@
 title = "DCU SpeakEasy"
-baseURL = "https://www.redbrick.dcu.ie/~fraz/ispeakizi/"
+baseURL = "https://speakeasyireland.ie/"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
@@ -16,7 +16,7 @@ theme = "airspace-hugo"
   [[menu.header]]
     weight = 5
     name = "YAP"
-    url = "/yap"
+    url = "/yapireland"
   [[menu.header]]
     weight = 6
     name = "Events"
@@ -37,7 +37,7 @@ theme = "airspace-hugo"
   [[menu.footer]]
     weight = 5
     name = "YAP"
-    url = "/yap"
+    url = "/yapireland"
   [[menu.footer]]
     weight = 6
     name = "Events"
@@ -67,8 +67,8 @@ theme = "airspace-hugo"
   [params.aboutUs]
     enable = true
     title = "About Us"
-    img = '/~fraz/ispeakizi/img/group1.png'
-    values = '/~fraz/ispeakizi/img/values.png'
+    img = '/img/group1.png'
+    values = '/img/values.png'
     italic = "We are DCU’s and Ireland’s largest public speaking and communications society and we help students to practically enhance their communication skills in a relaxed and informal setting. We are like Toastmasters (with a twist) and TEDx talks rolled into one, plus much more."
     paragraph = "In August 2016 we started the society with three members and as a way to prepare for college presentations. Since then, we have created many signature events which provide a safe and relaxed environment for students to ultimately receive constructive advice and develop their confidence."
     paragraph2 = "Speakeasy was awarded DCU’s best new society in it’s first year and it’s member base has now increases significantly year on year. Apart from our weekly events that range from impromptu Da Shpoof sessions to interactive workshops and guest speakers, we also organise two national competitions; BESK, the Best National Speaker Competition and YAP Ireland, the National Student Podcast Competition."
@@ -77,23 +77,23 @@ theme = "airspace-hugo"
     paragraph5 = "We believe that by striving to achieve these goals, our members will exceed their own expectations and gain both personal and professional growth."
     paragraph6 = "Our strong connections with industry leaders are reflected in our ethos, and we are proud have EY as Speakeasy’s main society sponsor in 2018/’19."
 
-[params.yap]
+[params.yapireland]
     enable = true
-    title = "/~fraz/ispeakizi/img/yap_title.png"
-    img = '/~fraz/ispeakizi/img/yap.png'
+    title = "/img/yapireland_title.png"
+    img = '/img/yapireland.png'
     italic = "Newstalk, Off the Ball and EY have partnered with Speakeasy to launch the first national student podcast competition, YAP Ireland. "
     paragraph = "The competition is open to all registered third level students in the country, and there are four categories for students to enter:"
     paragraph2sub = "Podcasts must be no longer than 30 minutes in duration."
     head3 = "PRIZES"
     prize1 ="First prize:  Mentorship from Newstalk and Off the Ball producers and an audio production equipment package worth €400"
-    prize1_img = "/~fraz/ispeakizi/img/one.png"
+    prize1_img = "/img/one.png"
     prize2 = "Second prize: Podcasting equipment package worth €200"
-    prize2_img = "/~fraz/ispeakizi/img/two.png"
+    prize2_img = "/img/two.png"
     prize3 = "Third prize: Podcasting equipment package worth €100"
-    prize3_img = "/~fraz/ispeakizi/img/three.png"
+    prize3_img = "/img/three.png"
     prize4 = "All our winners will be set up with the tools to build a successful career in media!"
     head4 = "JUDGING CRITERIA"
-    judge_img = '/~fraz/ispeakizi/img/judge.png'
+    judge_img = '/img/judge.png'
     jc1 = "VALUE"
     jc1d = "How well does your programme entertain, inform and stimulate the audience?"
     jc2 = "PRESENTATION"
@@ -105,12 +105,12 @@ theme = "airspace-hugo"
     twitter_link = "https://twitter.com/IrelandYap"
     facebook_link = "https://www.facebook.com/YAPIRELAND19/?ref=page_internal"
     instagram_link = "https://www.instagram.com/yap_ireland/"
-    partner = "/~fraz/ispeakizi/img/newstalk.png"
+    partner = "/img/newstalk.png"
 
 [params.besk]
     enable = true
     title = "BESK"
-    img = '/~fraz/ispeakizi/img/group2.png'
+    img = '/img/group2.png'
     italic = "This is Speakeasy DCU’s first year running BESK, our student best speaker competition. Students have the opportunity to speak about a topic that they’re passionate about for up to 7 minutes."
     paragraph = "In August 2016 we started the society with three members and as a way to prepare for college presentations. Since then, we have created many signature events which provide a safe and relaxed environment for students to ultimately receive constructive advice and develop their confidence."
     paragraph2 = "Blurb about National Student Speaker Competition/ Competition format"

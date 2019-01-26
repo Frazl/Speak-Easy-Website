@@ -1,4 +1,0 @@
-+++
-title = "YAP"
-id = "yap"
-+++
