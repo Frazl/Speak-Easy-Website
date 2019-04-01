@@ -25,7 +25,6 @@ theme = "airspace-hugo"
     weight = 7
     name = "Our Team"
     url = "/team"
-
   [[menu.footer]]
     weight = 3
     name = "About Us"
@@ -102,6 +101,10 @@ theme = "airspace-hugo"
     jc3d = "In terms of innovation, originality and novelty – how does it stand out?"
     jc4 = "PRODUCTION"
     jc4d = "Is your piece well-produced and quality evident?"
+    subh = ""
+    subp1 = "Podcasts must be no longer than 30 minutes in duration, and can be submitted in MP3 format from Monday 1st April to Sunday 7th April at 5pm."
+    subp2 = "MP3 file submissions will only be valid if they are sent via WeTransfer’s free service to yapireland@speakeasyireland.ie, with the following format for your podcast’s information in the ‘message’ box:"
+    subp3 = ""
     twitter_link = "https://twitter.com/IrelandYap"
     facebook_link = "https://www.facebook.com/YAPIRELAND19/?ref=page_internal"
     instagram_link = "https://www.instagram.com/yap_ireland/"
@@ -129,7 +132,7 @@ theme = "airspace-hugo"
   [params.feature]
     enable = true
     title = "We host amazing events"
-    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    content = "From our confidence building ‘Shpoof’ sessions to our national public speaking finals, our amazing events cater for people at all different skills levels of public speaking. It's often not what you say but how you say it! Our podcast series is another interesting way to portray your ideas in a less public setting. Come on over to one of our events and meet our welcoming team members. We host on average 15 events per semester, so there’s an event suitable for all walks of life."
     img = ""
     [params.feature.button]
       caption = "View Events"
